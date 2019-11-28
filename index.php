@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Bingo</title>
 </head>
 <body>
+    <img  id="fundo" src="./imagens/15505.eps"/>
     <div id="titulo"> <h1>BINGO</h1> </div>
     <div id="cartela">
         <div id="tabela" class="x1"></div>
@@ -39,6 +40,6 @@
 
     <script src="./script/script.js"> </script>
 
-    <button type="button" id="botao" onclick="geraCartela()"> Jogar </button>
+    <button type="button" class="botao" onclick="geraCartela()"> Jogar </button>
 </body>
 </html>

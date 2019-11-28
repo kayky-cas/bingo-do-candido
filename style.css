@@ -1,0 +1,80 @@
+*{
+	max-width:100%;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+@font-face{
+    font-family: nordic;
+    src: url(./fonts/nordic.ttf)
+}
+
+@media only screen and (min-width: 768px){
+
+    body{
+        position: relative;
+        height: 50vw;
+        width: 100%;
+        background-color: #E3E3E3;
+    }
+
+    #fundo{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        display: none;
+    }
+
+    #tabela{
+        height:75px ;
+        width: 75px;
+        border: 1px solid #872424;
+        float:left;
+    }
+
+    #cartela{
+        position: relative;
+        top:10px;
+        height: 375px;
+        width: 375px;
+        text-align: center;
+        left: 35%;
+    }
+
+    #titulo{
+        position: relative;
+        font-family: nordic;
+        font: #E3E3E3;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    h1{
+        color:#872424;
+        font-size: 10vw;
+    }
+
+    .botao {
+        position: relative;
+        background-color:#e3e3e3;
+        border-radius:42px;
+        border:5px solid #700909;
+        display:inline-block;
+        cursor:pointer;
+        color:#700909;
+        font-family:Arial;
+        font-size:23px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        left: 44%;
+        top: 20px;
+    }
+    .botao:hover {
+        background-color:#b0a7a7;
+    }
+
+}
