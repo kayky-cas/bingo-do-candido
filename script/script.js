@@ -19,3 +19,4 @@ function numAlet() {
   xhttpNUM.open("GET", "geraNUM.php", true);
   xhttpNUM.send();
 }
+//sdsdsd
