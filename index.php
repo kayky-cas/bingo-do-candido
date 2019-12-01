@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Bingo</title>
-</head>
-<body>
+  </head>
+  <body>
     <img  id="fundo" src="./imagens/15505.eps"/>
     <div id="titulo"> <h1>BINGO</h1> </div>
     <div id="cartela">
-        <div id="tabela" class="x1"></div>
-        <div id="tabela" class="x2"></div>
-        <div id="tabela" class="x3"></div>
-        <div id="tabela" class="x4"></div>
-        <div id="tabela" class="x5"></div>
+        <div id="tabela" class="x1">1</div>
+        <div id="tabela" class="x2">2</div>
+        <div id="tabela" class="x3">3</div>
+        <div id="tabela" class="x4">4</div>
+        <div id="tabela" class="x5">5</div>
         <div id="tabela" class="x6"></div>
         <div id="tabela" class="x7"></div>
         <div id="tabela" class="x8"></div>
@@ -37,9 +37,8 @@
         <div id="tabela" class="x24"></div>
         <div id="tabela" class="x25"></div>
     </div>
-
-    <script src="./script/script.js"> </script>
-
-    <button type="button" class="botao" onclick="geraCartela()"> Jogar </button>
-</body>
+    <button type="button" class="botao" onclick="numAlet()"> Jogar </button>
+    <div id="numJoga"></div>
+    <script src="script.js"> </script>
+  </body>
 </html>
