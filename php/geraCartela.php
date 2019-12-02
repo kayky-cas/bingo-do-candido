@@ -1,7 +1,7 @@
 <?php
   for ($i=0; $i < 25; $i++) {
     do {
-      $cartela[$i] = rand(0,100);
+      $cartela[$i] = rand(0,99);
       $status = 1;
       for ($j = 0; ($j < $i) && ($status == 1); ++$j){
         if ($cartela[$i] == $cartela[$j]){

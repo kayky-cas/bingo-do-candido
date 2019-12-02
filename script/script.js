@@ -9,7 +9,7 @@ xhttp.onreadystatechange = function() {
     }
   }
 }
-xhttp.open("GET", "geraCartela.php", true);
+xhttp.open("GET", "./php/geraCartela.php", true);
 xhttp.send();
 var xhttpNUM = new XMLHttpRequest();
 xhttpNUM.onreadystatechange = function() {
@@ -17,7 +17,7 @@ xhttpNUM.onreadystatechange = function() {
     numJog = JSON.parse(this.responseText)
   }
 }
-xhttpNUM.open("GET", "geraNUM.php", true);
+xhttpNUM.open("GET", "./php/geraNUM.php", true);
 xhttpNUM.send();
 function teste() {
   for (var i = 2; i < 27; i++) {
@@ -41,16 +41,17 @@ function check(){
 
 function numAlet() {
   if (cont<75) {
-    tabNum.innerHTML = tabNum.innerHTML+"<div>"+numJog[cont]+"</div>"
+    tabNum.innerHTML = "<div>"+numJog[cont]+"</div>"+tabNum.innerHTML
     teste()
     cont++
     check()
     if (contX == 25) {
-      window.alert("PARABÉNS VOCÊ GANHOU!!!!");
+      window.alert("PARABÉNS VOCÊ GANHOU!!!!")
+      window.location.reload()
     }
   }
   else {
-    window.alert( "PERDESTE" );
-
+    window.alert( "PERDESTE" )
+    window.location.reload()
   }
 }
