@@ -40,6 +40,6 @@
     <button type="button" class="botao" onclick="numAlet()"> Jogar </button>
     <p id="contador"></p>
     <div id="numJoga"></div>
-    <script src="script.js"></script>
+    <script src="./script/script.js"></script>
   </body>
 </html>

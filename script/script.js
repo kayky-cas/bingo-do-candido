@@ -17,7 +17,7 @@ xhttpNUM.onreadystatechange = function() {
     numJog = JSON.parse(this.responseText)
   }
 }
-xhttpNUM.open("GET", "./php/geraNUM.php", true);
+xhttpNUM.open("GET", "./php/geraNum.php", true);
 xhttpNUM.send();
 function teste() {
   for (var i = 2; i < 27; i++) {
