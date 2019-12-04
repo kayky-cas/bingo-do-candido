@@ -44,6 +44,7 @@ function numAlet() {
     tabNum.innerHTML = "<div>"+numJog[cont]+"</div>"+tabNum.innerHTML
     teste()
     cont++
+    document.getElementById("contador").innerHTML = cont+"/75"
     check()
     if (contX == 25) {
       window.alert("PARABÉNS VOCÊ GANHOU!!!!")

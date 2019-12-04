@@ -38,7 +38,8 @@
         <div id="tabela" class="x25"></div>
     </div>
     <button type="button" class="botao" onclick="numAlet()"> Jogar </button>
+    <p id="contador"></p>
     <div id="numJoga"></div>
-    <script src="./script/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
