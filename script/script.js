@@ -54,4 +54,5 @@ function numAlet() {
     window.alert( "PERDESTE" )
     window.location.reload()
   }
+
 }
