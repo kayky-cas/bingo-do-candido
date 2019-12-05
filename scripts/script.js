@@ -23,10 +23,8 @@ function teste() {
   for (var i = 2; i < 27; i++) {
     console.log(document.getElementsByTagName('div')[i].innerHTML+" "+numJog[cont]);
     if (document.getElementsByTagName('div')[i].innerHTML==numJog[cont]) {
-      document.getElementsByTagName('div')[i].onclick = function x() {
-        this.innerHTML = "X"
-        this.style.color = "green"
-      }
+      document.getElementsByTagName('div')[i].innerHTML = "X"
+      document.getElementsByTagName('div')[i].style.color = "green"
     }
   }
 }
