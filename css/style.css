@@ -68,6 +68,8 @@
         width: 5vw;
         border: 1px solid #872424;
         float:left;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 		#contador{
 			width: 10%;
